@@ -3,15 +3,15 @@ This project focuses on exploring and preprocessing the Titanic dataset using Py
 
 # What This Project Covers
 
-1.Library Setup
+1.Library Setup:
 
 ->Imported essential Python libraries: pandas, numpy, matplotlib, seaborn, scikit-learn.
 
-2.Dataset Loading & Exploration
+2.Dataset Loading & Exploration:
 
 ->Loaded the dataset and used ".info()" and ".head()" to understand the structure and view initial entries.
 
-3.Missing Value Handling
+3.Missing Value Handling:
 
 ->Filled missing values in Age and Fare with the median.
 
