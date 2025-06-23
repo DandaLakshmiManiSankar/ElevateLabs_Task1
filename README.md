@@ -9,16 +9,25 @@ This project focuses on exploring and preprocessing the Titanic dataset using Py
 ->Loaded the dataset and used .info() and .head() to understand the structure and view initial entries.
 
 3.Missing Value Handling
+
 ->Filled missing values in Age and Fare with the median.
+
 ->Filled missing Embarked values with the mode.
+
 ->Verified imputation with .isnull().sum().
+
 ->Encoding Categorical Variables
+
 ->Converted Sex to numerical using label encoding (male: 0, female: 1).
+
 ->Used one-hot encoding for Embarked, dropping the first category to avoid dummy variable trap.
 
 # To run this project:
 
 ->Install the requirements.txt file using this command in Google Colab: " !pip install -r requirements.txt "
+
 ->Upload the Titanic dataset to your Colab environment.
+
 ->Open "Task1.ipynb" in Google Colab.
+
 ->Run all cells for a complete preprocessing pipeline.
